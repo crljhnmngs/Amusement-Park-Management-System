@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="UserDBDataSet12" targetNamespace="http://tempuri.org/UserDBDataSet12.xsd" xmlns:mstns="http://tempuri.org/UserDBDataSet12.xsd" xmlns="http://tempuri.org/UserDBDataSet12.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="UserDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="UserDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Project.Properties.Settings.GlobalReference.Default.UserDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="transactionsTableAdapter" GeneratorDataComponentClassName="transactionsTableAdapter" Name="transactions" UserDataComponentName="transactionsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="UserDBConnectionString (Settings)" DbObjectName="dbo.transactions" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT date, tickets, payments FROM dbo.transactions</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="date" DataSetColumn="date" />
+              <Mapping SourceColumn="tickets" DataSetColumn="tickets" />
+              <Mapping SourceColumn="payments" DataSetColumn="payments" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="UserDBDataSet12" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="UserDBDataSet12" msprop:Generator_UserDSName="UserDBDataSet12">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="transactions" msprop:Generator_TableClassName="transactionsDataTable" msprop:Generator_TableVarName="tabletransactions" msprop:Generator_TablePropName="transactions" msprop:Generator_RowDeletingName="transactionsRowDeleting" msprop:Generator_RowChangingName="transactionsRowChanging" msprop:Generator_RowEvHandlerName="transactionsRowChangeEventHandler" msprop:Generator_RowDeletedName="transactionsRowDeleted" msprop:Generator_UserTableName="transactions" msprop:Generator_RowChangedName="transactionsRowChanged" msprop:Generator_RowEvArgName="transactionsRowChangeEvent" msprop:Generator_RowClassName="transactionsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="date" msprop:Generator_ColumnVarNameInTable="columndate" msprop:Generator_ColumnPropNameInRow="date" msprop:Generator_ColumnPropNameInTable="dateColumn" msprop:Generator_UserColumnName="date">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tickets" msprop:Generator_ColumnVarNameInTable="columntickets" msprop:Generator_ColumnPropNameInRow="tickets" msprop:Generator_ColumnPropNameInTable="ticketsColumn" msprop:Generator_UserColumnName="tickets" type="xs:int" />
+              <xs:element name="payments" msprop:Generator_ColumnVarNameInTable="columnpayments" msprop:Generator_ColumnPropNameInRow="payments" msprop:Generator_ColumnPropNameInTable="paymentsColumn" msprop:Generator_UserColumnName="payments" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

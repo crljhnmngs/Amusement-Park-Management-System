@@ -1,0 +1,32 @@
+D:\Project\Project\Project\bin\Debug\Project.exe.config
+D:\Project\Project\Project\bin\Debug\Project.exe
+D:\Project\Project\Project\bin\Debug\Project.pdb
+D:\Project\Project\Project\obj\Debug\Project.csprojAssemblyReference.cache
+D:\Project\Project\Project\obj\Debug\Project.loginform.resources
+D:\Project\Project\Project\obj\Debug\Project.Properties.Resources.resources
+D:\Project\Project\Project\obj\Debug\Project.csproj.GenerateResource.cache
+D:\Project\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+D:\Project\Project\Project\obj\Debug\Project.exe
+D:\Project\Project\Project\obj\Debug\Project.pdb
+D:\Project\Project\Project\obj\Debug\Project.RegisterForm.resources
+D:\Project\Project\Project\bin\Debug\UserDB.mdf
+D:\Project\Project\Project\bin\Debug\UserDB_log.ldf
+D:\Project\Project\Project\obj\Debug\Project.AdminForm.resources
+D:\Project\Project\Project\obj\Debug\Project.Userform.resources
+D:\Project\Project\Project\obj\Debug\Project.Addadminform.resources
+E:\old codes\amusement park management system\Project\Project\bin\Debug\UserDB.mdf
+E:\old codes\amusement park management system\Project\Project\bin\Debug\UserDB_log.ldf
+E:\old codes\amusement park management system\Project\Project\bin\Debug\Project.exe.config
+E:\old codes\amusement park management system\Project\Project\bin\Debug\Project.exe
+E:\old codes\amusement park management system\Project\Project\bin\Debug\Project.pdb
+E:\old codes\amusement park management system\Project\Project\obj\Debug\Project.csprojAssemblyReference.cache
+E:\old codes\amusement park management system\Project\Project\obj\Debug\Project.Addadminform.resources
+E:\old codes\amusement park management system\Project\Project\obj\Debug\Project.AdminForm.resources
+E:\old codes\amusement park management system\Project\Project\obj\Debug\Project.loginform.resources
+E:\old codes\amusement park management system\Project\Project\obj\Debug\Project.Properties.Resources.resources
+E:\old codes\amusement park management system\Project\Project\obj\Debug\Project.RegisterForm.resources
+E:\old codes\amusement park management system\Project\Project\obj\Debug\Project.Userform.resources
+E:\old codes\amusement park management system\Project\Project\obj\Debug\Project.csproj.GenerateResource.cache
+E:\old codes\amusement park management system\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+E:\old codes\amusement park management system\Project\Project\obj\Debug\Project.exe
+E:\old codes\amusement park management system\Project\Project\obj\Debug\Project.pdb
